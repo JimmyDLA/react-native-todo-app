@@ -1,0 +1,22 @@
+{
+    "name": "yieldstreet-todo-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "description": "Todo server for Yieldstreet",
+    "scripts": {
+        "start": "nodemon index.js",
+        "update": "npm install --only=development; ./node_modules/.bin/yarn"
+    },
+    "author": "ClassPass",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "jsonfile": "3.0.0",
+        "morgan": "^1.9.1",
+        "nodemon": "^1.17.3"
+    },
+    "devDependencies": {
+        "yarn": "1.3.2"
+    }
+}
